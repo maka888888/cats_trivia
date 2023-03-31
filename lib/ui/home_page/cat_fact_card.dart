@@ -45,8 +45,8 @@ class CatFactCard extends StatelessWidget {
                   ),
                 ),
               ),
-              subtitle:
-                  Text(Jiffy.parseFromDateTime(catFact.updatedAt).yMMMMEEEEdjm),
+              subtitle: Text(
+                  Jiffy.parseFromDateTime(catFact.updatedAt!).yMMMMEEEEdjm),
             ),
             ButtonBar(
               alignment: MainAxisAlignment.center,
